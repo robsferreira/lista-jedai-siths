@@ -1,8 +1,13 @@
+var somSabre = new Audio();
+somSabre.src = "src/sons/lightsab.mp3";
+
+
+
 const botaoAlterarTema = document.getElementById("botao-alterar-tema");
 
 const body = document.querySelector("body");
 
-const imagemBotaoTrocaDeTema = document.querySelector(".imagem-botao")
+const imagemBotaoTrocaDeTema = document.querySelector(".imagem-botao");
 
 botaoAlterarTema.addEventListener("click", () => {
 
